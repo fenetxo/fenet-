@@ -25,11 +25,12 @@ Output: Success message if the student is removed successfully, otherwise, a mes
 
 View Enrolled Students:
 - Display the details of all enrolled students.
-Output: List of enrolled students with their student information 
+Output: List of enrolled students with their student information
 
 class StudentEnrollmentSystem:
     def instructor (self):
         self.students = {}
+        
     def add_student(self, student_id, name, grade_level, courses):
         if student_id in self.students:
             print("Student ID already exists. Please choose a different ID.")
