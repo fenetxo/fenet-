@@ -5,7 +5,7 @@ Inputs:
 Student ID (for adding and removing a student): A unique identifier for each student.
 Name: Name of the student.
 Grade Level: The level or year of schooling for the student.
-Courses (for adding a student): List of courses the student is enrolled in. Courses are entered as a comma-separated string.
+Courses (for adding a student): List of courses the student is enrolled in. 
 
 outputs: 
 Success or failure messages for adding or removing students.
@@ -20,7 +20,7 @@ Output: You would get a messge saying the student is added successfully. if not 
 
 Remove a Student:
 Input: Student ID.
-Check if the student ID exists, if yes, remove the student from the system.
+Check if the student ID exists in the system, if yes, remove the student from the system.
 Output: Success message if the student is removed successfully, otherwise, a message indicating failure
 
 View Enrolled Students:
